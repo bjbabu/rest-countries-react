@@ -9,7 +9,11 @@ const CountryDetailsPage = (props) => {
   const [theme] = useContext(Context);
 
   return (
-    <div className={"px-7 desktop:px-20 pt-28 " + theme.themeBackground}>
+    <div
+      className={
+        " desktop:h-screen  px-7 desktop:px-20 pt-28 " + theme.themeBackground
+      }
+    >
       <Link to={"/"}>
         <button
           className={
