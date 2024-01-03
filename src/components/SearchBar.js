@@ -26,7 +26,9 @@ const SearchBar = (props) => {
         </svg>
       </button>
       <input
-        className={"border-white w-9/12 placeholder:text-xs " + theme.theme}
+        className={
+          "border-white w-9/12 placeholder:text-xs outline-none " + theme.theme
+        }
         type="text"
         placeholder="Search for a country..."
         value={searchCountry}
