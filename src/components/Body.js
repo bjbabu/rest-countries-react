@@ -42,7 +42,7 @@ const Body = () => {
     <div
       id="container"
       className={
-        "px-4 pt-24 desktop:h-dvh desktop:px-20 desktop:pt-28 " +
+        "px-4 pt-24 desktop:h-dvh desktop:px-0 desktop:pt-28 " +
         theme.themeBackground
       }
     >

@@ -21,7 +21,10 @@ const Bars = (props) => {
   const [subRegions, setSubRegions] = useState([]);
 
   return (
-    <div id="bars" className="mt-2 desktop:mt-4 flex flex-wrap justify-between">
+    <div
+      id="bars"
+      className="mt-2 desktop:px-20 desktop:mt-4 flex flex-wrap justify-between"
+    >
       <SearchBar
         searchCountry={searchCountry}
         setSearchCountry={setSearchCountry}
