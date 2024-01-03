@@ -1,0 +1,20 @@
+.ligth-theme {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(200, 15%, 8%);
+  fill: hsl(200, 15%, 8%);
+}
+
+.light-theme-background {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.dark-theme {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(209, 23%, 22%);
+  fill: hsl(0, 0%, 100%);
+}
+
+.dark-theme-background {
+  background-color: hsl(207, 26%, 17%);
+  color: hsl(0, 0%, 100%);
+}
