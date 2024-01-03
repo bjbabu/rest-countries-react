@@ -34,7 +34,7 @@ const Countries = (props) => {
     return (
       <div
         id="countries"
-        className="px-9 desktop:px-0 mt-8 flex flex-wrap justify-between items-center gap-x-4 gap-y-24"
+        className="px-9 desktop:px-20 mt-8 flex flex-wrap justify-between items-center gap-x-4 gap-y-24"
       >
         <Shimmer />
         <Shimmer />
